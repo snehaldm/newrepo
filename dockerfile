@@ -2,4 +2,4 @@ FROM centos
 ENV work_dir=/var/www/index
 RUN yum install httpd httpd-tools -y
 COPY index.html ${work_dir}
-EXPOSE 
+EXPOSE 80 443
