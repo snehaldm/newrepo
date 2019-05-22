@@ -1,2 +1,2 @@
 FROM centos
-ENV new_dir=/var/www
+ENV new_dir=/var/www/index
