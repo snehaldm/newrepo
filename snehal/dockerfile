@@ -1,2 +1,2 @@
 FROM centos
-ENV new_dir=value
+ENV new_dir=/var/www
