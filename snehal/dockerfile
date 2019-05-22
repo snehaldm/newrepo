@@ -1,2 +1,2 @@
 FROM centos
-ENV key=value
+ENV new_dir=value
