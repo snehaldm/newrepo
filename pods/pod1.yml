@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+   name: snehal-pod2
+spec:
+   containers:
+     - name: snehal-pod2
+       image: httpd:latest
+       ports:
+         - containerPort: 80
